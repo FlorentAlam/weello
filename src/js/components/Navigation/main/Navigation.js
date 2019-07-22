@@ -8,7 +8,7 @@ import './Navigation.css';
 
 const Navigation = (props) => (
     <nav>
-        <Link to='/'><h5>Weello</h5></Link>
+        <Link to={process.env.PUBLIC_URL + '/'}><h5>Weello</h5></Link>
         <div className="user__block">
                 <React.Fragment>
                     {/* <Link to="/connection"><button className="connection">Connexion</button></Link>

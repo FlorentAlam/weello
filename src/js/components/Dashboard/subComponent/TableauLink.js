@@ -33,7 +33,7 @@ class TableauLink extends React.Component{
         let id = this.props.id;
         return (
             <React.Fragment>
-                <Link to={"/projet/" + id} onContextMenu={this.onOpenContext}>
+                <Link to={process.env.PUBLIC_URL + "/projet/" + id} onContextMenu={this.onOpenContext}>
                     <button className="dashboard__table-select-button">{ tableau.titre }</button>
                 </Link>
                 {this.state.isContextOpen && (

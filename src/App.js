@@ -17,8 +17,8 @@ class App extends React.Component{
       <div className="App">
         <Router>
           <Navigation/>
-          <Route exact path="/" component={Dashboard}/>
-          <Route path="/projet/:id" component={Tableau}/>
+          <Route exact path={process.env.PUBLIC_URL + "/"} exact component={Dashboard}/>
+          <Route path={process.env.PUBLIC_URL + "/projet/:id"} component={Tableau}/>
           {/*<Route path="/connection" component={Connection}/>
           <Route path="/inscription" component={Inscription}/> */}
         </Router>

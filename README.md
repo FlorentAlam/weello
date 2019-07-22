@@ -2,7 +2,7 @@
 
 ## Description
 
-Weello est une application vous permettant de créer des listes, de planifier des projets.
+Weello est une application vous permettant de créer des listes, de planifier des projets, et ça sans qu'aucune inscription ne soit nécessaire.
 
 ## Comment ça marche
 
