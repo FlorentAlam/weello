@@ -1,0 +1,152 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup .background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+}
+
+.popup .content{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    background: #eee;
+    z-index: 600;
+    padding: 40px;
+    
+}
+
+.popup .content div, .popup .content textarea, .popup .content h3{
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.popup .content .right-panel{
+    margin-left: 50px;
+}
+
+.popup__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popup__header button{
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-size: 4rem;
+    color: rgba(50, 50, 50, .4);
+}
+.popup__header button:hover{
+    color: darkcyan;
+}
+.popup ul{
+    list-style-type: none;
+}
+.popup__description textarea, .popup__commentaire textarea{
+    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.popup .etiquettes__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.popup .etiquettes__container div{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    opacity: .2;
+    transition: opacity .2s;
+}
+.popup .etiquettes__container div:hover{
+    opacity: 1;
+}
+
+.popup .etiquettes__container .selectedEtiquette{
+    opacity: 1;
+}
+
+.popup .etiquettes__container .chocolate{
+    background: chocolate;
+}
+.popup .etiquettes__container .crimson{
+    background: crimson;
+}
+.popup .etiquettes__container .yellowgreen{
+    background: yellowgreen;
+}
+.popup .etiquettes__container .darkcyan{
+    background: darkcyan;
+}
+.popup .etiquettes__container .gold{
+    background: gold;
+}
+
+.popup__checklist__items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 10px;
+}
+
+.popup__checklist button{
+    border: none;
+    background: none;
+    font-weight: bold;
+    opacity: .8;
+    cursor: pointer;
+}
+.popup__checklist input{
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+.popup__echeance .echeanceTermine{
+    color: crimson;
+    font-weight: bold;
+}
+
+.popup__echeance button{
+    border: none;
+    background: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: .8;
+}
+
+.popup .suppression{
+    color: crimson;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup .content textarea{
+    border-radius: 5px;
+    resize: none;
+}

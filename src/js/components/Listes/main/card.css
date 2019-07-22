@@ -1,0 +1,96 @@
+.tableau{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+.card{
+    width: 250px;
+    background: #ddd;
+    margin-right: 10px;
+}
+
+.card .cardTitle{
+    padding: 0px 8px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card .cardTitle button{
+    font-weight: bold;
+    border: none;
+    background: none;
+    color: #777;
+}
+
+.card .cardTitle input{
+    font-weight: bold;
+}
+
+
+
+.card .emptyAction div{
+    background: #999;
+    color: #999;
+}
+
+.card .addActionInput{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+}
+
+.card .addActionInput input{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card .addActionInput button{
+    margin-right: 5px;
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.card .addActionInput .addButton{
+    background: #4CAF50;
+    color: white;
+}
+
+.card .addActionInput .closeButton{
+    color: #777;
+}
+
+.card .addActionInput .closeButton:hover{
+    color: #333;
+}
+
+.card .addActionInput div{
+    display: flex;
+    flex-direction: row;
+}
+
+.card .cardAddAction{
+    color: #777;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+    height: 30px;
+}
+
+.card .cardAddAction:hover{
+    background: #bbb;
+
+}
+
+.notEditable{
+    background: none;
+    border: none;
+}
+
+

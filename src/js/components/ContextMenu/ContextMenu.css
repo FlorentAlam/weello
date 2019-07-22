@@ -1,0 +1,22 @@
+.context__menu{
+    position: absolute;
+    top: 50px;
+    background: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    z-index: 2000;
+}
+.context__menu div{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.context__menu button{
+    /* width: 100%; */
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}

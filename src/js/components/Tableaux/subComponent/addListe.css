@@ -1,0 +1,65 @@
+.addListe{
+    padding: 8px;
+    background: #ddd;
+}
+
+.addListe input{
+    /* position: relative; */
+    background: #2196F3;
+    padding: 8px;
+    border: none;
+    z-index: 5;
+}
+
+.visible input{
+    background: #ddd;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 5px #bbb inset;
+}
+
+.hidden{
+    background: #2196F3;
+}
+
+.hidden:hover, .hidden:hover input{
+    background: rgb(23, 101, 165);
+}
+
+.addListe input::placeholder{
+    color: #eee;
+}
+
+.addListe input:focus::placeholder{
+    color: #bbb;
+}
+
+.addListe .addButton{
+    background: #4CAF50;
+    margin-top: 8px;
+    color: white;
+}
+.addListe .closeButton{
+    color: #777;
+}
+
+.addListe .closeButton:hover{
+    color: #333;
+}
+
+.addListe button{
+    margin-right: 5px;
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.addListe_hidden{
+    animation-name: anim_visible;
+    animation-duration: 0.3s;
+    transform-origin: top;
+}
+
+@keyframes anim_visible{
+    from{transform: translateY(-100%);}
+    to{transform: translateY(0);}
+}
