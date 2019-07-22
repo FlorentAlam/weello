@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/weello/static/css/main.714f2f8c.chunk.css",
+    "main.js": "/weello/static/js/main.e7478692.chunk.js",
+    "main.js.map": "/weello/static/js/main.e7478692.chunk.js.map",
+    "runtime~main.js": "/weello/static/js/runtime~main.5065132c.js",
+    "runtime~main.js.map": "/weello/static/js/runtime~main.5065132c.js.map",
+    "static/css/2.c51b6406.chunk.css": "/weello/static/css/2.c51b6406.chunk.css",
+    "static/js/2.bacc56e9.chunk.js": "/weello/static/js/2.bacc56e9.chunk.js",
+    "static/js/2.bacc56e9.chunk.js.map": "/weello/static/js/2.bacc56e9.chunk.js.map",
+    "index.html": "/weello/index.html",
+    "precache-manifest.32ba9bb93c5723d0a466d5595c62b605.js": "/weello/precache-manifest.32ba9bb93c5723d0a466d5595c62b605.js",
+    "service-worker.js": "/weello/service-worker.js",
+    "static/css/2.c51b6406.chunk.css.map": "/weello/static/css/2.c51b6406.chunk.css.map",
+    "static/css/main.714f2f8c.chunk.css.map": "/weello/static/css/main.714f2f8c.chunk.css.map"
+  }
+}
